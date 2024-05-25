@@ -1,0 +1,73 @@
+body{
+	background-color: #fed8b1;
+}
+
+.hero-image {
+  width: 1200px;
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background: url('header.jpg');
+  background-size: 1200px 200px;
+}
+
+img{
+	height: 100px;
+	width: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+ul{
+	text-align: left;
+}
+
+p#buttons{
+ 	width: 200px;
+ 	margin: 100px auto;
+}
+
+input#reg{
+	box-shadow: 3px 3px 4px black;
+	border: 2px solid blue;
+	color: red;
+	font-weight: bold;
+	background-color: white;
+}
+
+
+fieldset#last{
+	background-image: url("pictures/pggb.jpg");
+	height:340px;
+}
+
+
+h1, h2, h3{
+	color:black;
+	width: 490px;
+	padding: 10px 5px;
+	text-align: center;
+	box-shadow: 5px 5px 6px black;
+	text-shadow: 2px 2px 3px orange;
+	margin: 10px auto;
+	background-color: white;
+}
+
+a{text-decoration: none;}
+
+form#formId{
+	width: 500px;
+	margin: 20px auto 50px auto;
+	font-weight: bold;
+	color: white;
+	background: -webkit-gradient(linear, left top, left bottom, from(orange), to(white));
+	box-shadow: 5px 5px 6px black;
+}
+
+p{
+	width: 450px;
+	margin: 10px auto;
+	text-align: center;
+}
